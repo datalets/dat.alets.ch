@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title>7 years as Datalets</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<link rel="stylesheet" href="index_files/bootstrap.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<!--<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.css">-->
+	<!--<link rel="stylesheet" type="text/css" href="index_files/slick.css">
+	<link rel="stylesheet" type="text/css" href="index_files/slick-theme.css">
+--><link rel="stylesheet" type="text/css" href="index_files/yeti-bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="gitgraph.css">
+	<link rel="stylesheet" type="text/css" href="index_files/index.css">
+
+	<meta name="robots" content="all">
+  <meta name="keywords" content="python javascript opendata web-standards nosql linux html5 mvc .net javascript ios android python django mongodb flask angularjs postgresql opendata egovernment community-moderation data-visualization events organizer open-source data-mining architecture python jira flask amqp rabbitmq redis amazon-web-services">
+  <meta name="copyright" content="Oleg Lavrovsky">
+  <meta name="contact" content="oleg@datalets.ch">
+
+  <link rel="shortcut icon" href="https://datalets.ch/favicon.ico" type="image/x-icon">
+  <meta property="og:title" content="coder × coach × organiser × netizen">
+	<meta name="description" content="Datalets is a studio servicing open software and data projects based in Bern, Switzerland">
+	<meta property="og:description" content="Datalets is a studio servicing open software and data projects based in Bern, Switzerland">
+	<meta property="og:url" content="https://datalets.ch">
+	<meta property="og:image" content="globe.png">
+
+	<script src="jquery-3.4.1.min.js"></script>
+	<script src="gitgraph.umd.js"></script>
+	<script src="papaparse.min.js"></script>
+</head>
+
+<body ud="home">
+
+<center>
+	<h1>Hello, world.</h1>
+	<p>My name is Oleg, and
+	<br>this is my tech stack:</p>
+</center>
+
+<div class="hero container">
+
+    <div id="logos">
+    	<a target="_blank" href="http://ipython.org/"><img src="index_files/ipython.jpg" title="iPython"></a>
+    	<a target="_blank" href="http://www.python-summit.ch/"><img src="index_files/python-summit.svg" title="Swiss Python Summit"></a>
+    	<a target="_blank" href="https://www.postgresql.org/"><img src="index_files/postgres.png" title="Postgres"></a>
+    	<a target="_blank" href="https://w3c.github.io/html/"><img src="index_files/html5-badge-h-solo.png" title="HTML5"></a>
+    	<a target="_blank" href="https://www.w3.org/standards/techs/js"><img src="index_files/javascript.png" title="JavaScript"></a>
+    	<a target="_blank" href="https://twitter.com/getpelican"><img src="index_files/pelican.png" title="Pelican"></a>
+    	<a target="_blank" href="https://wagtail.io/"><img src="index_files/wagtail.svg" title="Wagtail CMS"></a>
+		<br><br>
+			<a target="_blank" href="http://frictionlessdata.io/"><img src="index_files/okfn.png" title="Frictionless Data"></a>
+			<a href="http://effinger.ch/" target="_blank"><img src="index_files/effinger-logo-footer.png" title="Effinger.ch"></a>
+			<a href="http://opendata.ch/" target="_blank"><img src="index_files/OpenData.png" title="Opendata.ch - Swiss chapter of Open Knowledge" hspace="5"></a>
+			<a href="https://opennetworkinfrastructure.org/" target="_blank"><img src="index_files/onia.png" title="Open Network Infrastructure Association" hspace="5"></a>
+			<a href="https://public-health.ch/de/aktivit%C3%A4ten/fachgruppen/technologien/" target="_blank"><img src="index_files/public-health-logo-sign.png" style="height:38px" title="Public Health Schweiz Association" hspace="5"></a>
+			<a href="https://demonights.ch/" target="_blank"><img src="index_files/buerp.png" title="Echtzeit Digitale Kultur" hspace="5"></a>
+	</div><!-- /logos>
+<div><!-- /hero -->
+
+<div class="container">
+	<div class="row">
+		<p style="margin:2em">
+			From 2013 to 2020, I have practiced the arts of data wrangling and internet publication in my solo agency <a href="https://dat.alets.ch/">datalets.ch</a>. What I did <a href="http://oleg.utou.ch/cv/">before that</a> is history. Here, I would like to put together on one page the amazing customers and teams I had the distinguished pleasure of working with, and the things we have built during these seven years.
+		</p>
+	</div>
+</div><!-- /container -->
+
+
+<div class="container">
+  <div class="row">
+	<center>
+
+   <a href="https://blog.datalets.ch/author/oleg/" class="btn btn-lg btn-primary">
+		Readme</a>
+
+	<script language="JavaScript">
+	document.write('<a class="btn btn-lg btn-primary" href="'+
+	'mail'+'to'+':'+'info'+'@'+location.hostname+'?'+
+	'subject=Hello+Datalets">'+
+	'Write me</a>');
+	</script>
+
+	    <a href="https://calendly.com/loleg/hello" ref="nofollow" class="btn btn-lg btn-primary">
+		 Meet me</a>
+
+	<a href="https://keybase.io/loleg" ref="nofollow" class="btn btn-lg btn-primary">
+		Securely</a>
+
+   </center><p></p>
+  </div>
+
+  </div><!-- /col -->
+</div><!-- /container -->
+
+<div class="container">
+	<div class="row">
+		<div id="gitgraph"></div>
+	</div>
+</div><!-- /container -->
+
+<style>
+#gitgraph > svg g text { cursor: pointer; }
+</style>
+
+<script language="JavaScript">
+
+const graphContainer = document.getElementById("gitgraph");
+const gitGraph = GitgraphJS.createGitgraph(graphContainer, {
+  orientation: GitgraphJS.Orientation.VerticalReverse,
+  template: GitgraphJS.templateExtend(GitgraphJS.TemplateName.Metro, {
+    commit: {
+      message: {
+        displayAuthor: false,
+        displayHash: false,
+        displayDate: true,
+      }
+    }
+	})
+});
+
+function gohere() { window.open(this.url, '_blank'); }
+
+var master = gitGraph.branch( "master" );
+var branches = {};
+
+Papa.parse('clients.csv', {
+	download: true, header: true,
+	complete: function(results) {
+
+		// Get unique branches
+		var bunq = [];
+		$.each(results.data, function() {
+			rwhy = this.why;
+			if (rwhy != '' && bunq.indexOf(rwhy)<0)
+				bunq.push(rwhy);
+		})
+		// console.log(bunq);
+
+		// Create branches
+		$.each(bunq, function() {
+			branches[bunq] = master.branch( bunq );
+		});
+
+		// Populate branches
+		$.each(results.data, function() {
+			rwhy = this.why;
+			if (rwhy == '' || bunq.indexOf(rwhy)<0) break;
+			branches[rwhy].commit({
+				subject: this.what,
+				url: this.where,
+				onMessageClick: gohere
+			}).tag(this.when)
+		});
+	}
+});
+
+
+master.merge(devloper);
+
+
+</script>
+
+<!-- <script src="index_files/bootstrap.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+<!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.1.1/ekko-lightbox.min.js"></script>-->
+<!-- <script src="index_files/FeedEk.js"></script> -->
+<!--<script src="index_files/slick.js"></script>
+<script src="index_files/nlform.js"></script>-->
+<!-- <script src="clients.js"></script> -->
+
+<!--
+...
+This message is for anyone who dares to hear a fool
+You can't bring me back, you can't bring me back
+Cause I give it all back to you
+...
+--Smashing Pumpkins, 1995
+-->
+<!-- <script async="" src="index_files/js.js"></script> -->
+
+</body></html>
