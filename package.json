@@ -1,0 +1,21 @@
+{
+  "name": "dat.alets.ch",
+  "version": "1.0.0",
+  "description": "Project log website",
+  "main": "index.js",
+  "repository": "git@github.com:datalets/dat.alets.ch.git",
+  "author": "Oleg Lavrovsky <oleg@datalets.ch>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@gitgraph/js": "^1.4.0",
+    "papaparse": "^5.3.1",
+    "picnic": "^6.5.5"
+  },
+  "scripts": {
+    "start": "node dev-server.js"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  }
+}

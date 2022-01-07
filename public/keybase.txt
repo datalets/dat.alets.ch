@@ -1,0 +1,82 @@
+==================================================================
+https://keybase.io/loleg
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://dat.alets.ch
+  * I am loleg (https://keybase.io/loleg) on keybase.
+  * I have a public key with fingerprint 4510 45E3 0B29 B969 7E95  BB6A EA91 3D83 7287 B56A
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101b6be0e9d05630b509748dda43de088ce4b06cc5a25d3995ae7725e9deb1304200a",
+      "fingerprint": "451045e30b29b9697e95bb6aea913d837287b56a",
+      "host": "keybase.io",
+      "key_id": "ea913d837287b56a",
+      "kid": "0101b6be0e9d05630b509748dda43de088ce4b06cc5a25d3995ae7725e9deb1304200a",
+      "uid": "d4ffeadf260fa94043221f49b58fff00",
+      "username": "loleg"
+    },
+    "merkle_root": {
+      "ctime": 1641543070,
+      "hash_meta": "5a27db32be264423250194851ad8b86d8d6d563dcc65ca34e861bbb017aa2f8c",
+      "seqno": 21580276
+    },
+    "revoke": {
+      "sig_ids": [
+        "878d7fa00e9d241984986bef72d6cccb0d081f046876430562cbcb81b84def810f"
+      ]
+    },
+    "service": {
+      "hostname": "dat.alets.ch",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "ctime": 1641543080,
+  "expire_in": 157680000,
+  "prev": "64a4eea613c158baaeb9e5eaf7a5dee62657dc3180335619d6dc485f3fb72bec",
+  "seqno": 47,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.1.13
+Comment: https://keybase.io/crypto
+
+yMLAAnicrZNtaB1FFIZvkja1UduIVlJECYsGqfUysztfe0mLoBFaTBBtsNLEdWbn
+bO42N3evu5vEUK71A6rFiGBbjMaKlGJDE1H6Q6RUDSEqEv1h0KTWJggWP2pBTZFC
+W9TZUEHEn+6fZXfe8573PDMzfW1drqGGnLvt0tNPfv9lzcxU2p+T87+P7bJUpIes
+wi6rF5ZfUNKQpF5vqK2ChTDCiilA4GpEmYMURS4nQmtJHA1ICB+IQsz3qbSpdlyX
+SuDcpkYPCjuI2AhJa6MVhOUeiCtxWE6NLaEYEQrGznaVy1wOLlWKSZAudrRwuC24
+oiwrLEZJVmHCKZlAPozMP/PhLcf7D/3/nLt/2U6TIACpA5uhQLoEEce2cUBcRUUQ
+BAhlwgTisuwDoy5FJeixqhutPoh7S+DFUZRmZP00zNYxI5gSB3FkppNJ0euDVJoy
+k4Rr5dgKbEaI7dgUYZcIiqUWSjAtNNNmFO37jPrSISAYVkohzKW0A+GbEAk8Vo6s
+go2pQDZnJkIMA1EvZN2TsMdAS6zCDktwoXkgUUbHJtgVxBUGVsBtbYj4CmkkcIAI
+E5yZoJTZvvKVwEoQDYHAKLC6q1m3eCD0l82zXboyvZZpXpYgTfJ+0USqxFEa+VHJ
+rBTTtJIUMjDpUCWTDoLyrph4Kixrc0ZMxQDESRiVDSij/BczYZjB45UwBi/MFJQz
+gcyT9YEBY8mIJACSYcc3EJSUoFygIAMuqQZgNqNc+w4WyHEow65h6hvGgRMobsj/
+AyLhJqfsMZ6GXFmm/TFY1anJrhW5moZc/cra7PLkGlY3/n2lbulc9eeDR0/c1HF8
+5Mzn81uv+3As//INw6fnf/z2ru33XN4z5028dfbYJ7k1Z967PNy9StWrLb90vOit
++2r8+GdvXNM0svTFnmPPLcxWz+ZX33n1u3tPTc5WDr05dePFt5sPpM1rf/qj65lb
+76h9v10efGh0tHbvD0sXjkxuiFtPz24ZO9+6b3ihqe3c/XWHTz41/fULF3c2zXRZ
+19888uzQ7dtaH9g0/upi81zakn60/5vtG7bu3pSMDm5+5Ldtiw2FE/e9095YJ4un
+Otondq4fLJ585RLM7ei8auWn6z5oWbGwe/xA273Vw413HznYsfTaS+2bv5vofLhS
+P5Psa/q1rfvC+Uc/Lux/ffDnNc8/Md242HJorG39XxdlhRI=
+=xTQv
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/loleg
+
+==================================================================
+
