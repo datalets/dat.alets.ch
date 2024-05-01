@@ -2,8 +2,8 @@
   "profile": "tabular-data-package",
   "resources": [
     {
-      "name": "clients",
-      "path": "clients.csv",
+      "name": "projects",
+      "path": "projects.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -34,13 +34,13 @@
       "encoding": "UTF-8"
     }
   ],
-  "name": "datalets-clients",
-  "title": "Datalets Clients",
-  "homepage": "https://datalets.ch",
-  "version": "1.0.0",
+  "name": "datalets",
+  "title": "Datalets, est. 2012",
+  "homepage": "https://dat.alets.ch",
+  "version": "1.0.1",
   "contributors": [
     {
-      "title": "O Lavrovsky",
+      "title": "Oleg Lavrovsky",
       "role": "author"
     }
   ],
@@ -51,6 +51,6 @@
       "path": "https://creativecommons.org/licenses/by/4.0/"
     }
   ],
-  "created": "04/19/+0200",
-  "description": "Projects and clients of Datalets, a freelance studio based in Switzerland."
+  "created": "04/19/2021",
+  "description": "Projects and engagements of a freelancer in Switzerland."
 }

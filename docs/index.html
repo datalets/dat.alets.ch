@@ -2,7 +2,7 @@
 <html lang="en"><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
 	<meta charset="utf-8">
-	<title>Aletsdat</title>
+	<title>dat.alets.ch</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
@@ -17,7 +17,7 @@
 	<meta property="og:url" content="https://dat.alets.ch">
 	<meta property="og:image" content="resources/logo5_circle.png">
 
-	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@6.5.5/picnic.min.css" integrity="sha256-CBnbiPQogodXMdZxPaWpmf+JdiMIky+FP31RLT0L9h4=" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic@7.1.0/picnic.min.css" integrity="sha256-5T8QYQPUORrO1aSWJdN4bowilPiT+ot6fPfJperdmTU=" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="index.css">
 </head>
 
@@ -37,10 +37,10 @@
     	<a target="_blank" href="https://www.w3.org/standards/techs/js"><img src="resources/javascript.png" title="JavaScript"></a>
     	<a target="_blank" href="http://frictionlessdata.io/"><img src="resources/okfn.png" title="Frictionless Data"></a>
 	    <br><br>
-	<a target="_blank" href="http://effinger.ch/"><img src="resources/effinger-logo-footer.png" title="Coworking"></a>
-	<a target="_blank" href="http://opendata.ch/"><img src="resources/OpenData.png" title="Opendata.ch - Swiss chapter of Open Knowledge" hspace="5"></a>
-	<a target="_blank" href="https://www.thethingsnetwork.org/community/Bern/"><img src="resources/onia.png" title="TTN Bern / Open Network Infrastructure Association" hspace="5"></a>
-	<a target="_blank" href="https://demonights.ch/"><img src="resources/buerp.png" title="Echtzeit Digitale Kultur" hspace="5"></a>
+			<a target="_blank" href="http://effinger.ch/"><img src="resources/effinger-logo-footer.png" title="Coworking"></a>
+			<a target="_blank" href="http://opendata.ch/"><img src="resources/OpenData.png" title="Opendata.ch - Swiss chapter of Open Knowledge" hspace="5"></a>
+			<a target="_blank" href="https://www.thethingsnetwork.org/community/Bern/"><img src="resources/onia.png" title="TTN Bern / Open Network Infrastructure Association" hspace="5"></a>
+			<a target="_blank" href="https://demonights.ch/"><img src="resources/buerp.png" title="Echtzeit Digitale Kultur" hspace="5"></a>
 		</div><!-- /logos -->
 	<div><!-- /content -->
 </header>
@@ -48,8 +48,10 @@
 <section id="people" class="flex five">
 
 	<article class="full four-fifth-1000">
-		<img src="resources/loleg.jpg" style="height:8em; width:8em; float:right; margin:2em">
-		<b style="font-size:125%">Oleg Lavrovsky</b>
+		<img class="my-mug" src="resources/loleg.jpg">
+		<a href="https://en.wikipedia.org/wiki/User:Loleg" target="_blank">
+			<b class="my-name" title="My legal first name is Oleg, spelled here in the Ukranian fashion (see Wikipedia)">Oleh Lavrovsky</b>
+		</a>
 		<p>
 			Freelance engineer for data wrangling and Internet operations with
 			a decade+ of experience in IT, academia, and digital agencies.
@@ -58,19 +60,28 @@
 			Supporting public-impact organizations, civic tech initiatives, and 
 			<a href="https://everyhack.day" target="_blank" title="Hackathons!">ᕼᗩᑕKᗩTᕼOᑎS</a> ⛹️
 		</p>
-		<div class="full">
-		        <a href="https://cal.com/loleg" ref="nofollow" title="Book time together" class="button success">🗓️ Book time</a>
-			<a href="data/publickey.asc" download title="For extra security" class="button error">⚿ PGP</a>
-			<a href="https://fosstodon.org/@loleg" ref="nofollow" title="Join my fediverse" class="button">🩩 Follow</a>
-			<a href="https://blog.datalets.ch/" title="Subscribe to my blog" class="button">🖎 Read</a>
-		</div>
 	</article>
 
+	<div class="full">
+		<div class="social-cal">
+		  <a href="#" ref="nofollow" title="Book time together" class="button" data-cal-link="loleg/10" data-cal-namespace="" data-cal-config='{"layout":"week_view"}'>👋 Let's connect for 10 minutes</a>
+		  <a href="#" ref="nofollow" title="Book time together" class="button" data-cal-link="loleg/25" data-cal-namespace="" data-cal-config='{"layout":"week_view"}'>🍅 25 minutes</a>
+		  <a href="#" ref="nofollow" title="Book time together" class="button" data-cal-link="loleg/60" data-cal-namespace="" data-cal-config='{"layout":"week_view"}'>🗓️ 1 hour ($)</a>
+		</div>
+		<div class="social-btn">
+		  <a href="mailto:qjze6nkz2@relay.firefox.com" ref="nofollow" title="Write an e-mail" class="button success">🖄 Write</a>
+			<a href="data/publickey.asc" download title="For extra security" class="button error">🬘 Secure</a>
+			<a href="https://fosstodon.org/@loleg" ref="nofollow" title="Join my fediverse" class="button">🩩 Socialize</a>
+			<a href="https://blog.datalets.ch/" title="Subscribe to my blog" class="button warning">🖎 Read</a>
+		</div>		
+	</div>
 </section>
 
-<h2 style="text-align:center;margin:2em">Commitment Graph</h2>
+<section id="Commitment" class="visual flex five">
+	<h2>Commitment</h2>
+</section>
 
-<div class="visual flex one">
+<div class=" flex five">
 	<div id="gitgraph"></div>
 </div>
 
@@ -100,12 +111,24 @@
 
 </main>
 
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/@gitgraph/js@1.4.0/lib/gitgraph.umd.min.js" integrity="sha256-2C7i1yoOYTyJy685ZQE3aPDVzRnKI/H/wpgCyDDVmdk=" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js" integrity="sha256-Ue6wom48SQbpmwW9QIk7pyVDR5Bg36SetP67V2pDkxc=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js" integrity="sha256-uOhwxdKyl3LxDJ+pppPIuJaqyFQO1nAePMYwTGg/69s=" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@gitgraph/js@1.4.0/lib/gitgraph.umd.js"></script>
+<!--<script src="https://cdn.jsdelivr.net/npm/@gitgraph/js@1.4.0/lib/gitgraph.umd.min.js" integrity="sha256-2C7i1yoOYTyJy685ZQE3aPDVzRnKI/H/wpgCyDDVmdk=" crossorigin="anonymous"></script>-->
 
 <script src="index.js"></script>
-<!--	<script src="http://github-profile.com/dist/gh-profile-card.min.js"></script>-->
+
+
+<!-- Cal element-click embed code begins -->
+<script type="text/javascript">
+  (function (C, A, L) { let p = function (a, ar) { a.q.push(ar); }; let d = C.document; C.Cal = C.Cal || function () { let cal = C.Cal; let ar = arguments; if (!cal.loaded) { cal.ns = {}; cal.q = cal.q || []; d.head.appendChild(d.createElement("script")).src = A; cal.loaded = true; } if (ar[0] === L) { const api = function () { p(api, arguments); }; const namespace = ar[1]; api.q = api.q || []; if(typeof namespace === "string"){cal.ns[namespace] = cal.ns[namespace] || api;p(cal.ns[namespace], ar);p(cal, ["initNamespace", namespace]);} else p(cal, ar); return;} p(cal, ar); }; })(window, "https://app.cal.com/embed/embed.js", "init");
+  Cal("init",  {origin:"https://cal.com"});
+  Cal("ui", {"styles":{"branding":{"brandColor":"#000000"}},"hideEventTypeDetails":false,"layout":"week_view"});
+</script>
+<!-- Cal element-click embed code ends -->
+
+
+</body></html>
 <!--
 ...
 This message is for anyone who dares to hear a fool
@@ -114,4 +137,3 @@ Cause I give it all back to you
 ...
 --Smashing Pumpkins, 1995--
 -->
-</body></html>

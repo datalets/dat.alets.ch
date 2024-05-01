@@ -16,25 +16,26 @@ const gitGraph = GitgraphJS.createGitgraph(graphContainer, {
 
 function gohere() { window.open(this.url, '_blank'); }
 
-var master = gitGraph.branch( "master" );
+var mainbranch = gitGraph.branch( "main" );
 var branches = {};
 
-Papa.parse('data/clients.csv', {
+Papa.parse('data/projects.csv', {
 	download: true, header: true,
 	complete: function(results) {
 
-		// Get unique branches
+		// Collect unique branches
 		var bunq = [];
+
 		$.each(results.data, function() {
-			// console.log(this);
+			// Grab the next row
 			rwhy = this.why;
 			if (rwhy == '') return;
 
 			if (bunq.indexOf(rwhy)<0) {
 				bunq.push(rwhy);
 
-				// Create branch
-				branches[rwhy] = master.branch(rwhy);
+				// Create a sub-branch
+				branches[rwhy] = mainbranch.branch(rwhy);
 			}
 
 			// Populate branches
@@ -46,7 +47,7 @@ Papa.parse('data/clients.csv', {
 		}); // -each results.data
 
 		$.each(bunq.reverse(), function() {
-			master.merge(branches[this]);
+			mainbranch.merge(branches[this]);
 		});
 	}
 });
