@@ -32,10 +32,41 @@
       "type": "file",
       "format": "CSV",
       "encoding": "UTF-8"
+    },{
+      "name": "revenues",
+      "path": "revenues.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "why",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "when",
+            "type": "integer",
+            "format": "default"
+          },
+          {
+            "name": "where",
+            "type": "string",
+            "format": "default"
+          },
+          {
+            "name": "what",
+            "type": "string",
+            "format": "default"
+          }
+        ]
+      },
+      "type": "file",
+      "format": "CSV",
+      "encoding": "UTF-8"
     }
   ],
   "name": "datalets",
-  "title": "Datalets, est. 2012",
+  "title": "Datalets, est. 2014",
   "homepage": "https://dat.alets.ch",
   "version": "1.0.1",
   "contributors": [
