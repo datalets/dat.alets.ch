@@ -6,7 +6,9 @@ See it live at https://dat.alets.ch
 
 ## Data
 
-In [projects.csv](docs/data/projects.csv), I list the _"why", "when", "where", "what"_ of engagements that make up my portfolio. This is used to generate a graph on my home page (some more details of this below).
+In [projects.csv](docs/data/projects.csv), I list the _"why", "when", "where", "what"_ of engagements that make up my portfolio. This is used to generate a graph on my home page (some more details of this below). Screenshot of the root of the graph:
+
+![](docs/resources/screenshot-gitgraph.png)
 
 In [revenues.csv](docs/data/revenues.csv), you can see the income that some of these activities generated:
 
