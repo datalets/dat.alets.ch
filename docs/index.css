@@ -25,6 +25,12 @@ h2 {
   color: white;
   font-weight: 200;
 }
+a {
+  color: white;
+}
+a:hover {
+  color: lightgreen;
+}
 
 aside a.top.visible {
   font-size: 1em;
@@ -102,9 +108,6 @@ aside .links a.button {
   font-size: .9em;
 }
 
-.my-mug {
-  height:10em; width:10em; float:right; margin:2em;
-}
 
 .my-name {
   font-size: 125%;
